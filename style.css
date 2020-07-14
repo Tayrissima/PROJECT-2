@@ -12,7 +12,7 @@ body{
     background: #6a6b6b;
     font-size: 14px;
     line-height: 22px;
-    color: rgb(235, 235, 240);
+    color: darkred;
 }
 
 .bold{
@@ -79,4 +79,28 @@ body{
 .resume_left .resume_hobbies .icon{
     float: left;
     letter-spacing: 15px;
+}
+
+.resume_right{
+    width: 520px;
+    background: white;
+    padding: 25px;
+}
+
+.resume_right .bold{
+    color: black;
+    background-color: white;
+    padding-left: 60px;
+}
+
+.resume_right .resume_work ul,
+.resume_right .resume_education ul{
+    padding-left: 40px;
+    overflow: hidden;
+}
+
+.resume_right ul li .date{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
 }
