@@ -12,7 +12,7 @@ body{
     background: #6a6b6b;
     font-size: 14px;
     line-height: 22px;
-    color: darkred;
+    color: rgb(46, 38, 38);
 }
 
 .bold{
@@ -22,7 +22,7 @@ body{
     background-color: black;
 }
 
-.semi_bold{
+.semi-bold{
     font-weight: 500;
     font-size: 16px;
 }
@@ -99,8 +99,18 @@ body{
     overflow: hidden;
 }
 
-.resume_right ul li .date{
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 15px;
+.resume_right{
+    position: relative;
 }
+
+.resume_right .resume_education ul li .date{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    float: left;width: 50%;
+}
+
+.resume_right ul li .info{
+    margin-bottom: 20px;
+}
+
