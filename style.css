@@ -12,7 +12,7 @@ body{
     background: #6a6b6b;
     font-size: 14px;
     line-height: 22px;
-    color: rgb(46, 38, 38);
+    color: black;
 }
 
 .bold{
@@ -103,14 +103,28 @@ body{
     position: relative;
 }
 
+.resume_right ul li .info{
+    margin-bottom: 20px;
+}
+
 .resume_right .resume_education ul li .date{
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 15px;
-    float: left;width: 50%;
+    float: left; width: 50%;
 }
 
-.resume_right ul li .info{
-    margin-bottom: 20px;
+.resume_right .resume_experience ul{
+    padding-left: 40px;
+    overflow: hidden;
 }
+
+.resume_right .resume_experience ul li .date{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    float: left; width: 50%;
+}
+
+.resume_right .resume_references ul li 
 
