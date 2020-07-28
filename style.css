@@ -7,9 +7,12 @@
     list-style: none;
     font-family: 'Arial', sans-serif;
 }
+span{
+    color: red;
+}
 
 body{
-    background: #6a6b6b;
+    background: rgb(231, 164, 147);
     font-size: 14px;
     line-height: 22px;
     color: black;
@@ -40,6 +43,7 @@ body{
 
 .resume_right .icon{
     color: red;
+    margin-bottom: 2px;
 }
 
 .resume_left{
@@ -102,7 +106,7 @@ body{
 .resume_right .bold{
     color: black;
     background-color: white;
-    padding-left: 60px;
+    padding-left: 40px;
 }
 
 .resume_right .resume_education ul{
