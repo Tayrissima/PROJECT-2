@@ -86,8 +86,9 @@ body{
 .resume_left .resume_hobbies .icon{
     float: left;
     letter-spacing: 15px;
-    text-align: justify;
-    padding-left: 15px;
+    padding-left: 10px;
+    border-radius: 50%;
+    border: 2px solid black;
 }
 
 .resume_right{
